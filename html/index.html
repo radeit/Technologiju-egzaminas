@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main map page</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <link rel="stylesheet" href="/css/main.css">
+     <link rel="stylesheet" href="/css/map.css">
+     
+</head>
+<body>
+
+  <header>
+    <h2 class="logo">Piliečio Žemėlapis</h2>
+    <nav class="navigation">
+        <a href="index.html">Pagrindinis</a>
+        <a href="zemelapis.html">Žemėlapis</a>
+        <a href="#">DUK</a>
+        <a href="#">Susisiekite</a>
+        <a class="btnLogin-popup" href="login.html">Prisijungti</a>
+    </nav>
+  </header>
+
+
+    <section id="buttons">
+          <button id="popup-button" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi-plus-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+            </svg>
+          </button>
+    </section>
+
+    <script src="/java/index.js"></script>
+</body>
+</html>
